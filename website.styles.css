@@ -1,3 +1,10 @@
+/* /Shared/Footer.razor.rz.scp.css */
+.footer[b-j75fg9y1lj] {
+    text-align: center;
+    flex: .05;
+    align-items: center;
+    align-content: flex-end;
+  }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-be6hs4iekg] {
     position: relative;
@@ -7,10 +14,17 @@
 
 .main[b-be6hs4iekg] {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar[b-be6hs4iekg] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.content[b-be6hs4iekg] {
+    flex: 1;
+    padding-top: 1.1rem;
 }
 
 .top-row[b-be6hs4iekg] {
